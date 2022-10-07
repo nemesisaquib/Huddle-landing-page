@@ -33,58 +33,52 @@ body{
 
 
 header{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    margin-left: 12rem;
+    margin: 2rem 0; 
+   
 }
 
 .logo{
     max-width: 100%;
 }
 .container{
-    width: 1440px;
-    /* height: 100vh; */
+    width: 1350px;
+    height: 100vh;
     margin: 0 auto ;
     
 }
 
 .content{
+    /* min-height: 80vh; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.left{
-    width: 50%;
 
-}
 
 picture{
     max-width: 100%;
 }
 
-.img{
-    width: 100%;
+
+
+.right{
+    padding: 5rem;
+    color:#ffffff;
 }
 
-
 h1{
-    font-size:2.9rem;
+    font-size:2.5rem;
     font-family: var(--font-Headings);
     padding-bottom: 1rem;
 }
 
 
-.right{
-    padding: 5rem;
-    width: 50%;
-    color:#ffffff;
-}
 
 p{
-    font-size:1.3rem;
-    line-height:1.5;
+    font-size:1rem;
+    line-height:1.8;
 }
 
 .btn{
@@ -94,7 +88,7 @@ p{
 
 a{
     text-decoration: none;
-    background: red;
+    
 }
 
 a{
@@ -124,7 +118,7 @@ a{
        display: flex;
        justify-content: flex-end;
        align-items: center;
-
+        margin-right: 5rem;
     }
 
     i{
@@ -196,11 +190,8 @@ a{
            
         }
 
-        header{
-            margin: 3rem 0 5rem 0;
-        }
 
-        picture{
+        picture img{
           width: 100%;
         }
         
@@ -220,13 +211,12 @@ a{
             font-size: 2rem;
         }
 
-        
-        .left{
-            width: 100%;
-        } 
+        p{
+            font-size:1.3rem;
+        }
+       
 
         .right{
-            width: 100%;
             padding: 0;
             margin:  0;
           
@@ -234,16 +224,16 @@ a{
 
 
         .icon{
-        
+            display: flex;
            justify-content: center;
-            align-items: center;
-            margin-top: 5rem;
+          
+            margin: 5rem 0;
         }
 
         .attribution{
             text-align: center;
             flex-direction: column;
-            
+            font-size: 1rem;
         }
 
         .a{
@@ -252,29 +242,6 @@ a{
        
       }
 
-      @media only screen and (max-width: 1440px) {
-
-      
-header{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-}
 
 
 
-        picture {
-          width: 100%;
-        }
-
-
-
-        .icon{
-        
-            justify-content: flex-end;
-            margin:2rem;
-            
-     
-         }
-
-      }
