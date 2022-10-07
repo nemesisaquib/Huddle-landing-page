@@ -42,7 +42,7 @@ header{
     max-width: 100%;
 }
 .container{
-    width: 80%;
+    width: 1440px;
     /* height: 100vh; */
     margin: 0 auto ;
     
@@ -204,6 +204,9 @@ a{
           width: 100%;
         }
         
+        .container{
+            width: 100%;
+        }
 
         
         .content{
@@ -240,7 +243,6 @@ a{
         .attribution{
             text-align: center;
             flex-direction: column;
-            /* width: 60%; */
             
         }
 
@@ -250,9 +252,29 @@ a{
        
       }
 
-      @media screen and (max-width: 1440px) {
+      @media only screen and (max-width: 1440px) {
+
+      
+header{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+
+
         picture {
           width: 100%;
         }
+
+
+
+        .icon{
+        
+            justify-content: flex-end;
+            margin:2rem;
+            
+     
+         }
 
       }
