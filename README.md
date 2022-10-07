@@ -10,4 +10,4 @@
 
     ## info
 
-    i add some hover effect on icon  
+    i add some hover effect on icon  AND SOME new box-shadow
